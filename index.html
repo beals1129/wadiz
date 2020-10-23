@@ -739,11 +739,11 @@
     var button = 1
     function moreButton() {
         if ( button == 1){
-        document.getElementById("drop_menu_container").style="display:block";
+        document.getElementById("drop_menu_container").style=" height : 347px; transition: 0.5s ease; opacity : 1;" ;
 
         button = 0
         } else {
-            document.getElementById("drop_menu_container").style="display:none";
+            document.getElementById("drop_menu_container").style=" height : 0px; opacity : 0; transition: 0.5s ease; ";
 
             button = 1
         }
