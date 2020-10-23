@@ -676,6 +676,9 @@ margin-bottom: -10px;
     .footer_notice_text button{
         display: inline-block;
     }
+    #drop_menu_container {
+        display: none;
+    }
 }
 
 
@@ -697,5 +700,9 @@ margin-bottom: -10px;
     .top_mini_banner .icon_x{
         font-size: 10px;
         line-height: 20px;
+    }
+
+    #drop_menu_container {
+        display: none;
     }
 }
